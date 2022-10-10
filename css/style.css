@@ -12,7 +12,7 @@ h1  {
     padding: 1rem;
 }
 
-[class^="col"]  {
+[class*="col"]  {
     background-color: blue;
     border: 2px solid cyan;
     padding: 1rem;
@@ -25,7 +25,7 @@ p   {
     color: white;
 }
 
-[class^="nested"]  {
+[class*="nested"]  {
     background-color: lightgreen;
     border: 2px solid white;
     padding: 1rem;
@@ -35,6 +35,6 @@ p   {
     align-items: center;
 }
 
-[class^="nested"] p {
+[class*="nested"] p {
     font-size: 9pt;
 }
