@@ -38,3 +38,51 @@ p   {
 [class*="nested"] p {
     font-size: 9pt;
 }
+
+.row.center {
+    justify-content: center;
+}
+
+.row.end    {
+    justify-content: end;
+}
+
+.row.Top :first-child   {
+    height: 100px;
+}
+
+.row.Top :nth-child(2)   {
+    height: 50px;
+}
+
+.row.Center {
+    align-items: center;
+}
+
+.row.Center :first-child    {
+    height: 100px;
+}
+
+.row.Center :nth-child(2)   {
+    height: 50px;
+}
+
+.row.End {
+    align-items: flex-end;
+}
+
+.row.End :first-child    {
+    height: 100px;
+}
+
+.row.End :nth-child(2)   {
+    height: 50px;
+}
+
+.col-12.justify-between  {
+    justify-content: space-between;
+}
+
+.col-12.justify-around {
+    justify-content: space-around;
+}
