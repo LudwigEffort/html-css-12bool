@@ -6,11 +6,11 @@ h1  {
     margin-bottom: 1rem;
 }
 
-.row    {
+/* .row    {
     background-color: pink;
     border: 2px solid lightcoral;
     padding: 1rem;
-}
+} */
 
 [class*="col"]  {
     background-color: blue;
@@ -85,4 +85,12 @@ p   {
 
 .col-12.justify-around {
     justify-content: space-around;
+}
+
+.second-section p {
+    display: none;
+}
+
+.third-section p {
+    display: none;
 }
